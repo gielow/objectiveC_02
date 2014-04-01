@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1C84053218EA324E00F50C2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C84053118EA324E00F50C2B /* main.cpp */; };
 		1C84053418EA324E00F50C2B /* N1Apresentacao.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C84053318EA324E00F50C2B /* N1Apresentacao.1 */; };
+		1C84053C18EA32E800F50C2B /* Transporte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C84053A18EA32E800F50C2B /* Transporte.cpp */; };
+		1C84053F18EA333B00F50C2B /* Heranca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C84053D18EA333B00F50C2B /* Heranca.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		1C84052E18EA324E00F50C2B /* N1Apresentacao */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = N1Apresentacao; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C84053118EA324E00F50C2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1C84053318EA324E00F50C2B /* N1Apresentacao.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = N1Apresentacao.1; sourceTree = "<group>"; };
+		1C84053A18EA32E800F50C2B /* Transporte.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transporte.cpp; sourceTree = "<group>"; };
+		1C84053B18EA32E800F50C2B /* Transporte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transporte.h; sourceTree = "<group>"; };
+		1C84053D18EA333B00F50C2B /* Heranca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heranca.cpp; sourceTree = "<group>"; };
+		1C84053E18EA333B00F50C2B /* Heranca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heranca.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				1C84053118EA324E00F50C2B /* main.cpp */,
 				1C84053318EA324E00F50C2B /* N1Apresentacao.1 */,
+				1C84053A18EA32E800F50C2B /* Transporte.cpp */,
+				1C84053B18EA32E800F50C2B /* Transporte.h */,
+				1C84053D18EA333B00F50C2B /* Heranca.cpp */,
+				1C84053E18EA333B00F50C2B /* Heranca.h */,
 			);
 			path = N1Apresentacao;
 			sourceTree = "<group>";
@@ -76,6 +86,7 @@
 				1C84052A18EA324E00F50C2B /* Sources */,
 				1C84052B18EA324E00F50C2B /* Frameworks */,
 				1C84052C18EA324E00F50C2B /* CopyFiles */,
+				1C84054018EA38E300F50C2B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -112,12 +123,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C84054018EA38E300F50C2B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Applications/Doxygen.app/Contents/Resources/doxygen \"$SOURCE_ROOT/Configuracao\"\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C84052A18EA324E00F50C2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C84053218EA324E00F50C2B /* main.cpp in Sources */,
+				1C84053F18EA333B00F50C2B /* Heranca.cpp in Sources */,
+				1C84053C18EA32E800F50C2B /* Transporte.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +256,7 @@
 				1C84053918EA324E00F50C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
